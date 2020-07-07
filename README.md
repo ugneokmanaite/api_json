@@ -55,7 +55,7 @@ with open("new_json_file.json", "w") as jsonfile: # using aliasing
 
 # this will produce no new outcome when running the file
 # however this will create new file in folder called "new_json_file"
-# ENCODING, creating & writing into json file
+# ENCODING(creating & writing) into json file
 
 with open("new_json_file.json") as jsonfile: # DECODING
 # Reading from the file we just created
@@ -64,8 +64,8 @@ with open("new_json_file.json") as jsonfile: # DECODING
     print(car['name']) # get the value stored name
     print(car['engine']) # get the value stored in second value pair
 
-# we have decoded our file new_json.json that we created earlier
+# we have DECODED(reading) file new_json.json that we created earlier
 # we have used following methods: dumps(), dump(), and load ()
 ```
  
- 
+* dealing with secret data- data that is encoded in data that is in format that's' not readable
