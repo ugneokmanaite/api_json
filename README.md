@@ -69,3 +69,4 @@ with open("new_json_file.json") as jsonfile: # DECODING
 ```
  
 * dealing with secret data- data that is encoded in data that is in format that's' not readable
+
