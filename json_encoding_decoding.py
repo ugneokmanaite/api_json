@@ -26,3 +26,5 @@ with open("new_json_file.json", "w") as jsonfile: # using aliasing
 
 # this will produce no new outcome when running the file
 # however this will create new file in folder called "new_json_file"
+
+# ENCODING, creating & writing into json file
